@@ -23,19 +23,19 @@ A modern Password Generator built using HTML, CSS and JavaScript.
 
 ### Home Page
 
-![Home](home.png)
+![Home](HomePage.png)
 
 ### Weak Password
 
-![Weak](weak.png)
+![Weak](Weak-Password.png)
 
 ### Medium Password
 
-![Medium](medium.png)
+![Medium](Medium-Password.png)
 
 ### Strong Password
 
-![Strong](strong.png)
+![Strong](Strong-Password.png)
 
 ## 🚀 How to Run
 
