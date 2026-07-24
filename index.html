@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Password Generator</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+
+        <h1>🔐 Password Generator</h1>
+
+        <!-- Password Length -->
+
+        <div class="length-box">
+
+            <div class="length-text">
+
+                <span>Password Length</span>
+
+                <span id="lengthValue">12</span>
+
+            </div>
+
+            <input
+                type="range"
+                min="8"
+                max="50"
+                value="12"
+                id="length">
+
+        </div>
+
+        <!-- Options -->
+
+        <div class="options">
+
+            <label>
+                <input type="checkbox" id="numbers" checked>
+                Include Numbers
+            </label>
+
+            <label>
+                <input type="checkbox" id="symbols" checked>
+                Include Symbols
+            </label>
+
+        </div>
+
+        <!-- Generate Button -->
+
+        <button id="generateBtn" onclick="generatePassword()">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            Generate Password
+
+        </button>
+
+        <!-- Password Output -->
+
+        <div class="password-box">
+
+            <input
+                type="password"
+                id="password"
+                readonly
+                placeholder="Your password will appear here">
+
+            <button
+                class="icon-btn"
+                onclick="togglePassword()">
+
+                <i class="fa-solid fa-eye"></i>
+
+            </button>
+
+            <button
+                class="icon-btn"
+                onclick="copyPassword()">
+
+                <i class="fa-solid fa-copy"></i>
+
+            </button>
+
+        </div>
+
+        <!-- Strength Meter -->
+
+        <div class="strength-box">
+
+            <div class="strength-bar">
+
+                <div id="strengthFill"></div>
+
+            </div>
+
+            <p id="strength">
+
+                Strength : -
+
+            </p>
+
+        </div>
+
+        <!-- Copy Message -->
+
+        <p id="copiedMessage">
+
+            ✅ Password Copied!
+
+        </p>
+
+        <!-- Footer -->
+
+        <footer>
+
+            Created by <strong>Pranjoy</strong>
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
