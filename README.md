@@ -21,23 +21,21 @@ A modern Password Generator built using HTML, CSS and JavaScript.
 
 ## 📸 Preview
 
-## 📸 Preview
+### Home Page
 
-### Home
-
-![Home]()
+![Home](home.png)
 
 ### Weak Password
 
-![Weak](screenshots/weak.png)
+![Weak](weak.png)
 
 ### Medium Password
 
-![Medium](screenshots/medium.png)
+![Medium](medium.png)
 
 ### Strong Password
 
-![Strong](screenshots/strong.png)
+![Strong](strong.png)
 
 ## 🚀 How to Run
 
