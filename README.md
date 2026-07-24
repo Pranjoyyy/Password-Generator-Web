@@ -1,4 +1,4 @@
-# 🔐 Password Generator Website
+<img width="1906" height="977" alt="Home Page" src="https://github.com/user-attachments/assets/15bba9b5-d66a-41ef-a0ff-95d713681d9c" /># 🔐 Password Generator Website
 
 A modern Password Generator built using HTML, CSS and JavaScript.
 
@@ -21,7 +21,23 @@ A modern Password Generator built using HTML, CSS and JavaScript.
 
 ## 📸 Preview
 
-(Add screenshots here)
+## 📸 Preview
+
+### Home
+
+![Home]()
+
+### Weak Password
+
+![Weak](screenshots/weak.png)
+
+### Medium Password
+
+![Medium](screenshots/medium.png)
+
+### Strong Password
+
+![Strong](screenshots/strong.png)
 
 ## 🚀 How to Run
 
